@@ -1,0 +1,13 @@
+---
+# Time between 2 events in seconds
+timer: 60
+# Rewards commands
+rewards:
+  - "give {player} 1 64"
+# Message broadcasted
+broadcast: "Soyez le premier à retrouver le mots correspondant pour remporter 1000$ ! Mot: {word}"
+broadcast_win: "Le joueur {player} a été le premier à trouver le mot {word}"
+words:
+  - "voiture"
+  - "camion"
+...
