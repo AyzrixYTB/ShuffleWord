@@ -1,12 +1,17 @@
----
-#     _____ _            __  __ _   __          __           _
+# ShuffleWord
+
+###### Simple plugin to earn rewards for the first player who finds the random word.
+
+## Config
+```yaml
+#     _____ _            __  __ _   __          __           _ 
 #    / ____| |          / _|/ _| |  \ \        / /          | |
 #   | (___ | |__  _   _| |_| |_| | __\ \  /\  / /__  _ __ __| |
 #    \___ \| '_ \| | | |  _|  _| |/ _ \ \/  \/ / _ \| '__/ _` |
 #    ____) | | | | |_| | | | | | |  __/\  /\  / (_) | | | (_| |
 #   |_____/|_| |_|\__,_|_| |_| |_|\___| \/  \/ \___/|_|  \__,_|
-#
-#
+#                                                              
+# 
 
 # Time between 2 events in seconds
 timer: 60
@@ -20,5 +25,4 @@ words:
   - "minecraft"
   - "pocketmine"
   - "microsoft"
-
-...
+```
